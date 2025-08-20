@@ -17,7 +17,7 @@
     "mongodb",
     "backend"
   ],
-  "author": "Your Name",
+  "author": "Vijay Khokhar",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
