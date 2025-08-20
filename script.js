@@ -236,33 +236,15 @@ class PortfolioManager {
         return [
             {
                 id: 1,
-                title: "E-Commerce Platform",
-                description: "Full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.",
-                technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-                demoUrl: "https://demo.example.com",
-                githubUrl: "https://github.com/yourusername/ecommerce",
-                imageUrl: "https://via.placeholder.com/400x250",
-                category: "web"
-            },
-            {
-                id: 2,
-                title: "Task Management App",
-                description: "Mobile-first task management application with real-time collaboration features.",
-                technologies: ["React Native", "Firebase", "Redux"],
-                demoUrl: "https://demo.example.com",
-                githubUrl: "https://github.com/yourusername/taskapp",
-                imageUrl: "https://via.placeholder.com/400x250",
-                category: "mobile"
-            },
-            {
-                id: 3,
-                title: "AI Image Classifier",
-                description: "Machine learning model for image classification using TensorFlow and Python.",
-                technologies: ["Python", "TensorFlow", "OpenCV", "Flask"],
-                demoUrl: "",
-                githubUrl: "https://github.com/yourusername/ai-classifier",
-                imageUrl: "https://via.placeholder.com/400x250",
-                category: "ai"
+                title: "Pacman Game",
+                description: "A single-player Pac-Man style arcade game implemented in Java using Swing. The game includes tile-based maze rendering, player movement and animation, pellet collection, basic ghost movement, collision detection, and score tracking.",
+                technologies: ["Java", "Java", "Java Swing", "Version control / hosting: Git + GitHub"],
+                //demoUrl: "https://demo.example.com",
+                githubUrl: "https://github.com/VijayKhokhar111/PacMan.git",
+                imageUrl: "https://github.com/VijayKhokhar111/PacMan/blob/main/PacMan/Screenshot%202025-08-20%20171143.png",
+                category: "Game"
+            }
+            
             }
         ];
     }
