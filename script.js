@@ -241,8 +241,8 @@ class PortfolioManager {
                 technologies: ["Java", "Java", "Java Swing", "Version control / hosting: Git + GitHub"],
                 //demoUrl: "https://demo.example.com",
                 githubUrl: "https://github.com/VijayKhokhar111/PacMan.git",
-                imageUrl: "https://github.com/VijayKhokhar111/PacMan/blob/main/PacMan/Screenshot%202025-08-20%20171143.png",
-                category: "Game"
+                imageUrl: "https://github.com/VijayKhokhar111/Portfolio/blob/main/Screenshot%202025-08-20%20171143.png",
+                category: "2D-Game"
             }
             
             }
