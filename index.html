@@ -131,6 +131,27 @@
             <div class="projects-grid" id="projects-grid">
                 <!-- Projects will be loaded dynamically -->
             </div>
+            <div class="admin-panel">
+                <button id="admin-toggle" class="btn btn-admin">Admin Panel</button>
+                <div id="admin-form" class="admin-form hidden">
+                    <h3>Add New Project</h3>
+                    <form id="project-form">
+                        <input type="text" id="project-title" placeholder="Project Title" required>
+                        <textarea id="project-description" placeholder="Project Description" required></textarea>
+                        <input type="text" id="project-technologies" placeholder="Technologies (comma-separated)" required>
+                        <input type="url" id="project-demo" placeholder="Demo URL">
+                        <input type="url" id="project-github" placeholder="GitHub URL">
+                        <input type="url" id="project-image" placeholder="Image URL">
+                        <select id="project-category" required>
+                            <option value="">Select Category</option>
+                            <option value="web">Web App</option>
+                            <option value="mobile">Mobile</option>
+                            <option value="ai">AI/ML</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary">Add Project</button>
+                    </form>
+                </div>
+            </div>
         </div>   
     </section>
 
