@@ -244,8 +244,6 @@ class PortfolioManager {
                 imageUrl: "https://github.com/VijayKhokhar111/Portfolio/blob/main/Screenshot%202025-08-20%20171143.png",
                 category: "2D-Game"
             }
-            
-            }
         ];
     }
 
